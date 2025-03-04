@@ -18,7 +18,7 @@ function App() {
     setGeneratedText("");
 
     try {
-        const response = await axios.post("http://localhost:5000/generate", 
+        const response = await axios.post("https://resume-cover-letter-generator.onrender.com/generate", 
             { jobDescription },
             { headers: { "Content-Type": "application/json" } }
         );
