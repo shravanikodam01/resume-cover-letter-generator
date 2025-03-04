@@ -1,0 +1,28 @@
+Step 1: Setting Up the Backend (Express.js + OpenAI API)
+We’ll build a simple Express.js backend that:
+✅ Accepts a job description as input
+✅ Uses OpenAI API to generate a resume and cover letter
+✅ Returns the generated text as a response
+
+1️⃣ Initialize the Project
+Open your terminal and run:
+
+bash
+Copy
+Edit
+mkdir resume-cover-letter-generator && cd resume-cover-letter-generator
+mkdir backend && cd backend
+npm init -y
+This creates a project folder and initializes a Node.js project.
+
+2️⃣ Install Dependencies
+Run:
+
+bash
+Copy
+Edit
+npm install express cors dotenv openai
+express → Backend framework
+cors → Handle frontend-backend communication
+dotenv → Manage API keys
+openai → OpenAI GPT API
