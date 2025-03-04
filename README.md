@@ -34,7 +34,7 @@ Copy
 
 Edit
 
-git clone https://github.com/<your-username>/resume-cover-letter-generator.git
+git clone https://github.com/shravanikodam01/resume-cover-letter-generator.git
 
 cd resume-cover-letter-generator
 
